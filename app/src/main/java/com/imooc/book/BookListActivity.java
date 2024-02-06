@@ -117,7 +117,7 @@ public class BookListActivity extends AppCompatActivity {
             viewHolder.mNameTextView.setText(book.getBookname());
             final String path = Environment.getExternalStorageDirectory() + "/imooc/" + book.getBookname() + ".txt";
             final File file = new File(path);
-            viewHolder.mButton.setText(file.exists() ? "ç‚¹å‡»æ‰“å¼€" : "ç‚¹å‡»ä¸‹è½½");
+            viewHolder.mButton.setText(file.exists() ? "点击打开" : "点击下载");
 
             final ViewHolder finalViewHolder = viewHolder;
             viewHolder.mButton.setOnClickListener(new View.OnClickListener() {

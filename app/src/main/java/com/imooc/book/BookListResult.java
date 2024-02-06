@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-
+//model转换的时候  Cmd+N 最后有一个GsonformatePlugin   这个工具非常的好用
 public class BookListResult {
 
     /**
